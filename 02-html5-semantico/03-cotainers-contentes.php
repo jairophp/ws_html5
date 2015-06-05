@@ -11,6 +11,7 @@
     <!--[if lt IE 9]>
     <script src="js/html5shiv.min.js"></script>
     <![endif]-->
+    <link rel="stylesheet" href="css/oocss.css"/>
 </head>
 
 <body>
@@ -29,7 +30,7 @@
         <li><a href="<?= BASE; ?>/audio-e-video">Midia </a></li>
         <li><a href="<?= BASE; ?>/geolocation-e-estore">API's</a> </li>
         <li><a href="<?= BASE; ?>/micro-dados"> Micro Dados</a></li>
-        <li><a  class="btn btn-green radius boxshadow" href="#"></a>Comprar </li>
+        <li><a  class="btn btn-green radius boxshadow" href="#">Comprar</a> </li>
         <li><a href="<?= BASE; ?>/"> </li>
     </ul>
 
