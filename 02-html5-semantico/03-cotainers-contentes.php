@@ -39,17 +39,34 @@
 </header>
          <!--conteudo-->
 <footer class="bg-ligth container">
-    <section class="main_footer content">
 
     <h1 class="fontzero">UpInside treinamentos</h1>
+    <section class="main_footer content">
+
         <nav class="main_nav">
-            <h1 class="title"></h1>
+            <h1 class="title">Mais sobre o ws html5</h1>
             <ul>
-                <li><a href=""></a> </li>
-                <li><a href=""></a> </li>
-                <li><a href=""></a> </li>
+                <li><a href="#apresentacao">Assista o video</a> </li>
+                <li><a href="#apresentacao">Assista o video</a> </li>
+                <li><a href="#apresentacao">Assista o video</a> </li>
             </ul>
         </nav>
+        <article class="main_social">
+            <h1 class="title">UpInside nas redes socias</h1>
+            <ul>
+                <li><a target="_blank" rel="nofollow" href="http://www.facebook.com">Facebook</a> </li>
+                <li><a target="_blank" rel="nofollow" href="http://www.facebook.com">Google+</a> </li>
+                <li><a target="_blank" rel="nofollow" href="http://www.facebook.com">Twitter</a> </li>
+
+            </ul>
+        </article>
+        <article>
+            <h1 class="fontzero">Plataforma UpInside</h1>
+            <p><b>Plataforma EAD:</b>www.fbend.info</p>
+            <p><b>E-mail:</b>contato@fbend.</p>
+            <hr>
+            <p>&copy;<?=date('Y');?> - FBend, Todos os Direito Reservados</p>
+        </article>
         <div class="clear"></div>
     </section>
 </footer>
