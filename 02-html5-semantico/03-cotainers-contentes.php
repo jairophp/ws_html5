@@ -15,7 +15,8 @@
 </head>
 
 <body>
-<header class="main_header">
+<header class="container bg-gray">
+    <div class="content">
      <h1 class="main_logo">
          <a href="<?= BASE; ?>">
              Curso  Work Series - HTML5 do Jeito Certo!
@@ -33,13 +34,23 @@
         <li><a  class="btn btn-green radius boxshadow" href="#">Comprar</a> </li>
         <li><a href="<?= BASE; ?>/"> </li>
     </ul>
-
-    </ul>
+        <div class="clear"></div>
+    </div>
 </header>
          <!--conteudo-->
-<footer>
-    <section></section>
-    <h1>UpInside treinamentos</h1>
+<footer class="bg-ligth container">
+    <section class="main_footer content">
+
+    <h1 class="fontzero">UpInside treinamentos</h1>
+        <nav class="main_nav">
+            <h1 class="title"></h1>
+            <ul>
+                <li><a href=""></a> </li>
+                <li><a href=""></a> </li>
+                <li><a href=""></a> </li>
+            </ul>
+        </nav>
+        <div class="clear"></div>
     </section>
 </footer>
 </body>
